@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "876100614182",
+    "firebase_url": "https://pos-app-8a3d3-default-rtdb.firebaseio.com",
+    "project_id": "pos-app-8a3d3",
+    "storage_bucket": "pos-app-8a3d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876100614182:android:f80240df35d7b8d526cee7",
+        "android_client_info": {
+          "package_name": "com.happymeals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTr_Rur3AfEvIxWz5ufcF29VkJPO-FMp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876100614182:android:c2ea04765651490626cee7",
+        "android_client_info": {
+          "package_name": "com.sakshamrestrauntapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTr_Rur3AfEvIxWz5ufcF29VkJPO-FMp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

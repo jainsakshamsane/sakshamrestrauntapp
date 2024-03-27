@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/backdish"
+                android:src="@drawable/backk" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Add your Dishes"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textColor="#f15b5d" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Dish Name"
+                android:layout_marginTop="50dp"
+                android:id="@+id/dishname"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingredients"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ingredients"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Net Weight (in grams)"
+                android:layout_marginTop="10dp"
+                android:id="@+id/weight"
+                android:inputType="number"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Type"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/dishcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/signin"
+                android:padding="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popular Dish"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/dishpopular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/signin"
+                android:padding="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Time to Cook"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cooktime"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dish Category"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/signin"
+                android:padding="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Cost (in rupees)"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cost"
+                android:inputType="number"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Information about Dish"
+                android:layout_marginTop="10dp"
+                android:id="@+id/information"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/signin"
+                android:padding="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save &amp; Proceed"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:id="@+id/savedetails"
+                android:gravity="center"
+                android:background="@drawable/signin_button"
+                android:textColor="@color/white"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

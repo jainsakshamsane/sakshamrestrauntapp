@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/signin"
+        android:padding="22dp"
+        android:id="@+id/linear1" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/cutlery" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESTRO APP"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:textColor="#f15b5d" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/coupons"
+        android:layout_gravity="center"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/disccc" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linear1"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation" >
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="@drawable/bottom_navigation_item_color"
+        app:menu="@menu/bottom_navigation_menu" />
+</RelativeLayout>

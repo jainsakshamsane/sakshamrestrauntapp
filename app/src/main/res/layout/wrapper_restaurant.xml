@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/restro"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear1" >
+
+        <ImageView
+            android:id="@+id/restro_image"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:src="@drawable/cutlery" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/linear1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_below="@+id/resto_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restraunt Name"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:id="@+id/restro_name"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Food type"
+                    android:textSize="16dp"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/restro_type"></TextView>
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/linear2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/types"/>
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="Resto type"
+            android:textSize="16dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear4"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linear3"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="16dp"
+            android:layout_marginStart="3dp"
+            android:id="@+id/location"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linear4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Add Coupons"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/couponsadd"
+            android:gravity="center"
+            android:background="@drawable/coupons"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ddd"
+        android:layout_marginTop="270dp"
+        android:id="@+id/dishadd"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+</RelativeLayout>

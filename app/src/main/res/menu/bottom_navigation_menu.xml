@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_item_1"
+        android:title="Home"
+        android:icon="@drawable/hoomee"/>
+    <item
+        android:id="@+id/nav_item_2"
+        android:title="Orders"
+        android:icon="@drawable/historyyy"/>
+
+    <item
+        android:id="@+id/nav_item_02"
+        android:title="Reviews"
+        android:icon="@drawable/feedback"/>
+
+    <item
+        android:id="@+id/nav_item_3"
+        android:title="Profile"
+        android:icon="@drawable/userrr"/>
+
+</menu>

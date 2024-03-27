@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Create your account"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textColor="#f15b5d" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Username"
+                android:layout_marginTop="30dp"
+                android:id="@+id/username"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Email"
+                android:layout_marginTop="10dp"
+                android:id="@+id/email"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Password"
+                android:layout_marginTop="10dp"
+                android:id="@+id/password"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Phone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/phone"
+                android:inputType="number"
+                android:maxLength="10"
+                android:background="@drawable/signin"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:id="@+id/signup"
+                android:gravity="center"
+                android:background="@drawable/signin_button"
+                android:textColor="@color/white"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By clicking Sign up, you agree to the our Terms and Conditions"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:padding="10dp"
+            android:id="@+id/linear2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:padding="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:id="@+id/logintext"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#f15b5d"
+                android:padding="0dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
