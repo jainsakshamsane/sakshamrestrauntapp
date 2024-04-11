@@ -1,4 +1,4 @@
-To view this file, go to: https://login.skype.com/login/sso?go=webclient.xmm&docid=0-sa-d6-b5408aeb80b347df2bc7529370936517
+
 Restaurant app application named "RESTRO APP" utilizing the Firebase Realtime Database with owner signup-login.
 
 Screen 1 - Login/Sign up into your Account
